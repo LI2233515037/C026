@@ -1,0 +1,48 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568021743794" stop="1568021743803">
+  <name>test01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1568021743794" status="passed" stop="1568021743798">
+      <name>Test01.test001</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6412-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568021743798" status="passed" stop="1568021743798">
+          <name>我测试方法1</name>
+          <title>我测试方法1</title>
+          <attachments>
+            <attachment source="e137f9f2-f2b7-4bc5-add5-4ef7fc03ec93-attachment.txt" title="描述：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568021743801" status="passed" stop="1568021743803">
+      <name>Test01.test002</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6412-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568021743803" status="passed" stop="1568021743803">
+          <name>我测试方法2</name>
+          <title>我测试方法2</title>
+          <attachments>
+            <attachment source="a8c6446d-d4c7-4113-9864-dc92a2bccad7-attachment.txt" title="失败原因：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
